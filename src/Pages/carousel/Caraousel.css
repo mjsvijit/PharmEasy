@@ -1,0 +1,40 @@
+.carousel{
+    margin: 0 auto;
+    overflow:hidden;
+    margin-top: 70px;
+
+}
+
+
+.carousel-inner{
+    transition: ease 1s;
+    white-space: nowrap;
+}
+
+.carousel-item{
+    display:inline-block;
+    width:100%;
+}
+
+#crouselimg{
+    width: 100%;
+}
+
+.carousel-control{
+    background-color: transparent;
+    border:none;
+    display:inline-block;
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    top: calc(50% - 25px);
+    color: rgb(1, 12, 21);
+    cursor: pointer;
+    margin-top: -120px;
+}
+.left{
+    left: 0;
+}
+.right{
+    right: 0;
+}

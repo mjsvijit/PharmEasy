@@ -1,6 +1,6 @@
 import React from 'react'
 import {IoIosArrowForward, IoIosArrowBack} from 'react-icons/io'
-import './Caraousel.css'
+import './CarouselHealth.css'
 const CarauselControls = ({prev,next}) => {
   return (
     <div>

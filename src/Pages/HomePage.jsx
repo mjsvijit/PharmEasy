@@ -1,14 +1,17 @@
 import React from 'react'
-import MainPageSlider from './MainPageSlider'
-import NavBar from './NavBar'
 import './HomePage.css'
+import MainPageSlider from './MainPageSlider'
 import MainPageFooter from './MainPageFooter'
+
+
+
 
 const HomePage = () => {
   return (
     <div>
-    <NavBar/>
+    
     <MainPageSlider />
+    
     
     
     <div className='pagediv'>
@@ -55,9 +58,7 @@ const HomePage = () => {
        <br/>
 
        <MainPageFooter />
-    <div style={{height:"600px"}}>
     
-    </div>
     
     </div>
   )

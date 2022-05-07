@@ -1,9 +1,16 @@
+.mainNav{
+    display: flex;
+  flex-flow: column;
+  flex-direction: column;
+
+}
 .Nav{
     width:100%;
     height: 80px;
     border:#10847e;
     background-color: #10847e;
     position:fixed;
+   
 }
 #Navlogo{
     float:left;
@@ -57,4 +64,19 @@
     border-bottom-right-radius: 10px;
     font-size: 17px;
     color:#10847e;
+}
+
+.Nav2{
+    height:50px;
+    width:100%;
+    background-color:#10847e;
+    margin-top: 80px;
+   
+}
+#link{
+    font-size: 20px;
+   
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 40px;
 }

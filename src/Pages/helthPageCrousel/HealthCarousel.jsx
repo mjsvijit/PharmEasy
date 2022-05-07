@@ -1,8 +1,8 @@
 import React,{useState,useEffect} from 'react'
 import CarouselItem from './CarouselItem'
-import './Caraousel.css'
-import CarauselControls from './CarauselControls'
-import CarauselIndicators from './CarauselIndicators'
+import './CarouselHealth.css'
+import CarauselControls from './CarouselControl'
+import CarauselIndicators from './CarouselIndicators'
 
 const Carousel = ({slides}) => {
   const [currentSlide, setCurrentSlide] = useState(0);
